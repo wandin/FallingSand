@@ -328,7 +328,7 @@ You can also do minimally invasive surgery::
 
     function love.load()
         suit.theme.color.normal.fg = {255,255,255}
-        suit.theme.color.hovered = {bg = {200,230,255}, fg = {0,0,0}}
+        suit.theme.color.hovered = {bg = {200,0,255}, fg = {0,0,0}}
     end
 
 

@@ -48,8 +48,8 @@ function UI:update(dt)
             local theta = (TWOPI*i/#particleTypes)
             local x_pos = math.cos(theta) * 120
             local y_pos = math.sin(theta) * 120
-            buttons[i].x=(mx-25)+x_pos
-            buttons[i].y=(my-25)+y_pos
+            buttons[i].x=(mouseX-25)+x_pos
+            buttons[i].y=(mouseY-25)+y_pos
         end
     end
     u.update(dt)
